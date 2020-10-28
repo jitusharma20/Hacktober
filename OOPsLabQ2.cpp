@@ -13,7 +13,7 @@ public:
     friend void swap(swapusingfriend &t);
     void display()
     {
-        cout << "After swapping:" << x << " " << y;
+        cout << "After swapping:" << x << " " << y;      //after swapping
     }
 };
 void swap(swapusingfriend &t)
@@ -25,7 +25,7 @@ void swap(swapusingfriend &t)
 
 int main()
 {
-    swapusingfriend f;
+    swapusingfriend f;                      //main function
     f.input();
     swap(f);
     f.display();
