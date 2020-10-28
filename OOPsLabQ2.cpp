@@ -16,7 +16,7 @@ public:
         cout << "After swapping:" << x << " " << y;      //after swapping 
     }
 };
-void swap(swapusingfriend &t)
+void swap(swapusingfriend &t) //void swap
 {
     t.temp = t.x;
     t.x = t.y;
