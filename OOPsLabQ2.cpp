@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class swapusingfriend
+class swapusingfriend   //creating a class swapusing friend
 {
 private:
     int x, y, temp;
