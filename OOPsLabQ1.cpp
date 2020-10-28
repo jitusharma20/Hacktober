@@ -2,7 +2,7 @@
 using namespace std;
 class Complex
 {
-private:
+private:                    //t shirt boltee
     float real;
     float imag;
 
