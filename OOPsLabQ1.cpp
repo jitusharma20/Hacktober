@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-class Complex
+class Complex         // creating a complex class
 {
 private:
     float real;
     float imag;
 
-public:
+public:                // access specifiers
     Complex() : real(0), imag(0) {}
     void input()
     {
