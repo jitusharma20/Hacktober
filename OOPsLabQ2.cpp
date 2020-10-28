@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class swapusingfriend
+class swapusingfriend             
 {
 private:
     int x, y, temp;
@@ -10,7 +10,7 @@ public:
         cout << "Enter two numbers:" << endl;
         cin >> x >> y;
     }
-    friend void swap(swapusingfriend &t);
+    friend void swap(swapusingfriend &t);             //friend function
     void display()
     {
         cout << "After swapping:" << x << " " << y;      //after swapping
