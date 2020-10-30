@@ -5,7 +5,7 @@ class swapusingfriend              //class swapusing friend
 private:
     int x, y, temp;
 public:
-    void input()
+    void input() //void input function
     {
         cout << "Enter two numbers:" << endl;
         cin >> x >> y;
